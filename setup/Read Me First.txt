@@ -1,0 +1,15 @@
+1 Unzip to "Documents" folder
+	a) C:\Users\%USERNAME%\Documents
+3) Install Python 3.8.3
+4) Run 'Python Module Updater.bat'
+	a) C:\Users\%USERNAME%\Documents\mop.generator\Python Module Updater.bat
+5) Once batch file completed, open 'mop.generator.xlsm'
+	a) C:\Users\%USERNAME%\Documents\mop.generator\mop.generator.xlsm
+6) Click 'Enable Macros' in top left corner
+7) Click 'Select MOP Template' button, and navigate to the MOP template location, and select MOP template file
+8) Variables and Notes will appear in Columns B (Template Variables) and Column F (Notes) respectively. Populate Column D (Template Values) with Jira-specfic Variables, per Notes
+9) Once there is a 1:1 Variable:Value pair (input 'None' for uneeded Variables), click "Create MOP". This will output a completed MOP in HTML format, in the 'completed.mops' folder
+	a) First time the spreadsheet is opened, open the following html file:
+		1)C:\Users\%USERNAME%\Documents\mop.generator\completed.mops
+	a) After you verify the test.html was output correctly, open the needed MOP Template as needed
+10) Once the MOP accuracy is verified, copy/paste into iMOP (the MOP is sectioned out per iMOP's sections (e.g. Pre-Procedure, Procedure, etc))
